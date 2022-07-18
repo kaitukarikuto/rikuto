@@ -107,81 +107,105 @@
  </ul>
   
 <h1>練習問題2.6</h1>
-
- <!DOCTYPE html>
- <html lang-”ja”>
-  <head>
-   <meta charset="utf-8">
-   <title>練習問題2.6</title>
-  </head>
-  <body>
-   <p>テキスト入力:<input type="text"></p>
-  </body>
- </html>
-
+  <p>テキスト入力：<input type="text"></p>
+  
 <h1>練習問題2.7</h1>
+<form action="xxx.php" method="post"><label>メール(type="email"):<input type="email" name="email"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>URL(type="url"):<input type="url" name="url"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>検索(typ="search"):<input type="search" name="search"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>電話(type="telephone"):<input type="tel" name="tel"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>数値(type="number"):<input type="number" name="number"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>日付(type="date"):<input type="date" name="date"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>ローカル日時(type="datetime-local"):<input type="datetime-local" name="datetime-local"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>月(type="month"):<input type="month" name="month"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>週(type="week"):<input type="week" name="week"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>時間(type="time"):<input type="time" name="time"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>レンジ(type="range"):<input type="range" name="range"></label><input type="submit" value="送信"></form>
+<form action="xxx.php" method="post"><label>色</label><input type="submit" value="送信"></form>
 
- <form action="xxx.php" method="post"><label>メール(type="email"):<input type="email"
- name="email"></label><input type="submit" value="送信"></form>
- <form action="xxx.php" method="post"><label>URL(type="url"):<input type="url" name="url"></label><input type="submit"value="送信"></form>
- <form action="xxx.php" method="post"><label>検索(type="search"):<input type="search"
- name="search"><label><input type="submit" value="送信"></form>
- <form action="xxx.php" method="post"><label>電話(type="telephone"):<input type="tel"
- name="tel"></label><input type="submit" value="送信"></form>
-  
- <form action="xxx.php" method="post"><label>数値(type="number"):<input type="number"
- name="number"></label><input type="submit" value="送信"></form>
- <form action="xxx.php" method="post"><label>日付(type="date"):<input type="date"
- name="date"></label><input type="submit" value="送信"></form>
- <form action="xxx.php" method="post"><label>ローカル日時
- (type="datetime-local"):<input type="datetime-local"
- name="datetime-local"></label><input type="submit"
- value="送信"></form>
-
- <from action="xxx.php" method="post"><label>月(type="month"):<input type="month"
- name="month"></label><input type="submit" value="送信"></from>
- <from action="xxx.php" method="post"><label>週(type="week"):<input type="week"
- name="week"><label><input type="submit" value="送信"></from>
- <from action="xxx.php" method="post"><label>時間(type="time"):<input type="time"
- name="time"></label><input type="submit" value="送信"></from>   
- <from action="xxx.php" method="post"><label>レンジ(type="range"):<input type="range"
- name="range"></label><input type="submit" value="送信"></from>
- <from action="xxx.php" method="post"><label>色(type="color"):<input type="color"
- name="color"></label><input type="value="送信
- 
  <h1>練習問題2.8</h1>
-  
- <p><label>名前:<input type="text name="name" size="30" maxlength="20"></label></p>
- <p><label>パスワード:<input type="password" name="pass" size="6"
- maxlength"4"></label></p>
- <p>学年:
- <label><input type="radio" name="gakunen" value="1">1年生</label>
- <label><input type="radio" name="gakunen" value="2">2年生</label>
- <label><input type="radio" name="gakunen" value="3">3年生</label>
- <label><input type="radio" name="gakunen" value="4">4年生</label>
- <label><input type="radio" name="gakunen" value="5">5年生</label>
- <label><input type="radio" name="gakunen" value="6">6年生</label>
- </p>
- <p>好きな課目:
- <label><input type="checkbox" name="kamoku" value="kokugo">国語</label>
- <label><input type="checkbox" name="kamoku" value="eigo">英語</label>
- <label><input type="checkbox" name="kamoku" value="sansu">算数</label>
- <label><input type="checkbox" name="kamoku" value="rika">理科</label>
- <label><input type="checkbox" name="kamoku" value="syakai">社会</label>
- <label><input type="checkbox" name="kamoku" value="taiiku">体育</label>
- </p>
- <p><label>宿題ファイル:<input type="file" name="syukudai"></label></p>
- <p>
- <input type="submit" value="送信">
- <input type="reset" value="リセット">
+  <p><label>名前:<input type="text" name="name" size="30" maxlength="20"></label></p>
+  <p><label>パスワード:<input type="password" name="pass" size="6" maxlength="4"></label></p>
+  <p>学年:
+    <label><input type="radio" name="gakunenn" value="1">1年生</label>
+    <label><input type="radio" name="gakunenn" value="2">2年生</label>
+    <label><input type="radio" name="gakunenn" value="3">3年生</label>
+    <label><input type="radio" name="gakunenn" value="4">4年生</label>
+    <label><input type="radio" name="gakunenn" value="5">5年生</label>
+    <label><input type="radio" name="gakunenn" value="6">6年生</label>
   </p>
-   
- <head>
-  <meta charset="UTF-8">
-  <title> Web開発の練習1</title>
-  <link rel="stylesheet" href="mystyle.css">
-  <script src="myjs.js"></script>
- </head>
+  <p>好きな課目:
+    <label><input type="checkbox" name="kamoku" value="kokugo">国語</label>
+    <label><input type="checkbox" name="kamoku" value="eigo">英語</label>
+    <label><input type="checkbox" name="kamoku" value="sansu">算数</label>
+    <label><input type="checkbox" name="kamoku" value="rika">理科</label>
+    <label><input type="checkbox" name="kamoku" value="syakai">社会</label>
+    <label><input type="checkbox" name="kamoku" value="taiiku">体育</label>
+  </p>
+  <p><label>宿題ファイル:<input type="file" name="syukudai"></label></p>
+  <p>
+    <input type="submit" value="送信">
+    <input type="reset" value="リセット">
+    
+    <a href="a.html">相対パスでリンクします</a><br>
+    <a href="https://www.josai.ac.jp/education/management/index.html">絶対パスで城西大学へリンクします。</a><br>
+    <a href="mailto:zm21157@josai.ac.jp">自分宛メール</a><br>
+    <a href="https://www.josai.ac.jp/education/management/index.html/"><img src="./image/keiei_small.jpg" alt="城西大学ホームページ"></a>
+    
+    
+</p><h1>練習問題3.2</h1>
+ <a href="a.html" target="_blank">別画面を開いてリンクします</a><br>
+ <a href="a.html" target="_self">リンク元と同じフレームにリンクします</a><br>
+ <a href="a.html" target="_parent">ひとつ上の親フレームにリンクします</a><br>
+ <a href="a.html" target="_top">フレームをすべて解除してリンクします</a><br>
+ <a href="a.html" target="abc">abcという名前のフレームにリンクします</a><br>
+
+<h1>練習問題3.3</h1>
+<a href="#abc">abcと名前を付けた場所へリンクします</a><br>
+<a href="a.html#def">別ファイルの名前を付けた場所へリンクします</a>
+
+<h1>練習問題3.4</h1>
+<aside class="ad">
+  <h1>広報</h1>
+  <a href="https://www.josai.ac.jp/club/jyosisofuto.html">
+    <section>
+      <h1>城西大学　女子ソフトボール部</h1>
+      <p>女子ソフトボール部＜全日本総合女子ソフトボール部選手権大会出場決定！＞
+      </p>
+    </section></a>
+  
+  <a href="https://www.josai.ac.jp/news/20200625-04.html">
+    <section>
+      <h1>城西大学　JOSAI SPORTS FEILD</h1>
+      <p>JOSAI SPORTS FIELD 建設・整備が進んでいます【城西大学　坂戸キャンパス】
+      </p>
+      <p>城西大学坂戸キャンパスの北側の毛呂山町下川原沼に、サッカー場2面、ソフトボール場１面、アップダウンのあるランニングコース、管理施設にはシャワー室やミーティングルームなどを備えた新しいグラウンド"JOSAI SPORTS FIELD"が完成間近です。使用開始は、2020年の9月の予定です。</p>
+    </section></a>
+</aside>
+
+<h1>練習問題3.5</h1>
+<nav>
+  <ul>
+    <li><a href="https://www.josai.ac.jp/club/jyosisofuto.html">女子ソフトボール部</a></li>
+    <li><a href="https://www.josai.ac.jp/club/ekiden_hakone.html">男子駅伝部</a></li>
+    <li><a href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html">女子駅伝部</a></li>
+    <li><a>クラブ・サークル活動</a></li>
+  </ul>
+</nav>
+  
+  <p class="sample1">セキュリティ対策は今後ますます重要になるでしょう。</p>
+  <p class="sample2">セキュリティ対策は今後ますます重要になるでしょう。</p>
+  <p class="sample3">セキュリティ対策は今後ますます重要になるでしょう。</p>
+  
+  <!--
+<h1>イベントハンドラの練習</h1>
+<input type="button" value="ここをクリック" onclick="alert('Hello,Aoi!');">
+-->
+ 
+<input type="button" value="ここをクリック" onclick="sayhello();">
+<input type="button" value="ここをクリック" onclick="sayhello();sayhello();">
+  
+<input type="button" value="ここをクリック" onclick="saygoodbye();">
 
    </body>
  
